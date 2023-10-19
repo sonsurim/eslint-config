@@ -3,6 +3,10 @@ module.exports = {
   parser: '@babel/eslint-parser',
   plugins: ['react', 'react-hooks', 'jsx-a11y', 'testing-library'],
   'parserOptions': {
+    requireConfigFile: false,
+    babelOptions: {
+      presets: ['@babel/preset-react'],
+    },
     'ecmaVersion': 'latest',
     'sourceType': 'module',
     'ecmaFeatures': {

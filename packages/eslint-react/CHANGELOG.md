@@ -1,5 +1,11 @@
 # @sonny-fe/eslint-config-react
 
+## 0.1.2
+
+### Patch Changes
+
+- add babel preset
+
 ## 0.1.1
 
 ### Patch Changes
