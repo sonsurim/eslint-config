@@ -1,5 +1,17 @@
 # @sonny-fe/eslint-config-base
 
+## 0.0.9
+
+### Patch Changes
+
+- test apply config
+
+## 0.0.8
+
+### Patch Changes
+
+- change entry point
+
 ## 0.0.7
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "@sonny-fe/eslint-config-base",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "type": "module",
   "description": "base eslint config for sonny",
   "repository": {
@@ -15,23 +15,20 @@
   },
   "exports": {
     ".": {
-      "source": "./lib/index.js",
-      "require": "./lib/index.js",
-      "import": "./lib/index.mjs"
+      "source": "./lib/index.cjs",
+      "require": "./lib/index.cjs",
+      "import": "./lib/index.js"
     },
     "./package.json": "./package.json"
   },
-  "main": "./lib/index.js",
-  "source": "./src/index.js",
+  "main": "./lib/index.cjs",
+  "source": "./src/index.cjs",
   "files": [
     "src",
     "lib"
   ],
   "scripts": {
     "build": "vite build"
-  },
-  "peerDependencies": {
-    "eslint": "^8.0.0"
   },
   "publishConfig": {
     "access": "public"
@@ -47,5 +44,8 @@
     "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-vitest": "^0.3.2",
     "prettier": "^3.0.3"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0"
   }
 }
