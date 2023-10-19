@@ -1,5 +1,11 @@
 # @sonny-fe/eslint-config-base
 
+## 0.1.0
+
+### Minor Changes
+
+- Base Eslint Config for @sonny-fe
+
 ## 0.0.9
 
 ### Patch Changes
