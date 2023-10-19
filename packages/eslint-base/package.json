@@ -1,0 +1,50 @@
+{
+  "name": "@sonny-fe/eslint-config-base",
+  "version": "0.0.1",
+  "type": "commonjs",
+  "description": "base eslint config for sonny",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sonsurim/eslint-config",
+    "directory": "packages/eslint"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Surim Son",
+    "email": "surim014@naver.com"
+  },
+  "exports": {
+    ".": {
+      "source": "./lib/index.js",
+      "require": "./lib/index.cjs",
+      "import": "./lib/index.mjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./lib/index.js",
+  "files": [
+    "src",
+    "lib"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "vite": "^4.5.0"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jsdoc": "^46.8.2",
+    "eslint-plugin-json-format": "^2.0.1",
+    "eslint-plugin-mdx": "^2.2.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-vitest": "^0.3.2",
+    "prettier": "^3.0.3"
+  }
+}
