@@ -28,6 +28,9 @@
     "lib"
   ],
   "scripts": {
-    "build": "echo 'Add build script here'"
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^4.5.0"
   }
 }
