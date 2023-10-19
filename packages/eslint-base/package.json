@@ -16,7 +16,7 @@
   "exports": {
     ".": {
       "source": "./lib/index.js",
-      "require": "./lib/index.cjs",
+      "require": "./lib/index.js",
       "import": "./lib/index.mjs"
     },
     "./package.json": "./package.json"
