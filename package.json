@@ -5,9 +5,13 @@
   "author": "sonsurim <surim014@naver.com>",
   "scripts": {
     "build": "turbo run build",
-    "lint": "turbo run lint"
+    "clean": "turbo run clean && rm -rf node_modules",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build && changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.26.2",
     "eslint": "^8.48.0",
     "prettier": "^3.0.3",
     "turbo": "latest"
