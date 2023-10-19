@@ -1,4 +1,5 @@
 module.exports = {
+  env: { browser: true, es2021: true, node: true },
   parser: "@typescript-eslint/parser",
   extends: ["plugin:@typescript-eslint/recommended", "plugin:jsdoc/recommended-typescript"],
   plugins: ["@typescript-eslint", "import"],

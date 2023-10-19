@@ -1,4 +1,5 @@
 module.exports = {
+  env: { browser: true, es2021: true },
   plugins: ["react", "react-hooks", "jsx-a11y", "testing-library"],
   rules: {
     "react-hooks/rules-of-hooks": "error",
