@@ -1,5 +1,11 @@
 # @sonny-fe/eslint-config-base
 
+## 0.0.4
+
+### Patch Changes
+
+- fix not be applied
+
 ## 0.0.3
 
 ### Patch Changes
