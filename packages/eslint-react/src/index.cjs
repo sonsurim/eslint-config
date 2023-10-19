@@ -1,24 +1,32 @@
 module.exports = {
   env: { browser: true, es2021: true },
-  plugins: ["react", "react-hooks", "jsx-a11y", "testing-library"],
+  parser: '@babel/eslint-parser',
+  plugins: ['react', 'react-hooks', 'jsx-a11y', 'testing-library'],
+  'parserOptions': {
+    'ecmaVersion': 'latest',
+    'sourceType': 'module',
+    'ecmaFeatures': {
+      'jsx': true
+    }
+  },
   rules: {
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn",
-    "react/button-has-type": "error",
-    "react/jsx-sort-props": [
-      "error",
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
+    'react/button-has-type': 'error',
+    'react/jsx-sort-props': [
+      'error',
       {
-        "callbacksLast": true,
-        "reservedFirst": true
+        'callbacksLast': true,
+        'reservedFirst': true
       }
     ],
-    "react/jsx-pascal-case": "error",
-    "react/react-in-jsx-scope": "off",
-    "react/self-closing-comp": [
-      "error",
+    'react/jsx-pascal-case': 'error',
+    'react/react-in-jsx-scope': 'off',
+    'react/self-closing-comp': [
+      'error',
       {
-        "component": true,
-        "html": true
+        'component': true,
+        'html': true
       }
     ],
   },

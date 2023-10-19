@@ -1,5 +1,11 @@
 # @sonny-fe/eslint-config-ts
 
+## 0.1.1
+
+### Patch Changes
+
+- apply convention and add babel
+
 ## 0.1.0
 
 ### Minor Changes

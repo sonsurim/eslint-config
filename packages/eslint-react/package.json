@@ -1,6 +1,6 @@
 {
   "name": "@sonny-fe/eslint-config-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "react eslint config for sonny",
   "repository": {
@@ -37,6 +37,8 @@
     "vite": "^4.5.0"
   },
   "dependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/eslint-parser": "^7.22.15",
     "eslint": "^8.48.0",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.33.2",
