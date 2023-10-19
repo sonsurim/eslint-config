@@ -1,0 +1,33 @@
+{
+  "name": "@sonny-fe/eslint-config",
+  "version": "0.0.1",
+  "type": "commonjs",
+  "description": "eslint config for sonny",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sonsurim/eslint-config",
+    "directory": "packages/eslint"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Surim Son",
+    "email": "surim014@naver.com"
+  },
+  "exports": {
+    ".": {
+      "source": "./lib/index.js",
+      "require": "./lib/index.cjs",
+      "import": "./lib/index.mjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./lib/index.js",
+  "files": [
+    "index.js",
+    "src",
+    "lib"
+  ],
+  "scripts": {
+    "build": "echo 'Add build script here'"
+  }
+}
