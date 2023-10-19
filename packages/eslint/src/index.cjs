@@ -1,17 +1,21 @@
 module.exports = {
-  plugins: ["@sonny-fe/eslint-config"],
-  extends: ["plugin:@junghyeonsu/base"],
+  extends: ["@sonny-fe/eslint-config-base"],
   overrides: [
     {
       files: ["**/*.ts?(x)"],
-      extends: ["plugin:@junghyeonsu/typescript"],
+      parser: '@typescript-eslint/parser',
+      extends: ["@sonny-fe/eslint-config-ts"],
     },
     {
       files: ["**/*.{jsx,tsx}"],
-      extends: ["plugin:@junghyeonsu/react"],
+      extends: ["@sonny-fe/eslint-config-react"],
+      rules: {
+        'jsdoc/require-jsdoc': 'warn'
+      }
     },
     {
       files: ["**/*.tsx"],
+      parser: '@typescript-eslint/parser',
       rules: {
         "react/prop-types": "off",
       },
