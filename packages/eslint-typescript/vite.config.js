@@ -6,7 +6,9 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, 'src/index.cjs'),
       name: 'sonny-eslint-config-ts',
-      fileName: 'lib/index'
+      fileName: 'index',
+      formats: ['es', 'cjs']
     },
+    outDir: 'lib'
   }
 })
