@@ -1,5 +1,11 @@
 # @sonny-fe/eslint-config-base
 
+## 0.1.2
+
+### Patch Changes
+
+- change npmignore
+
 ## 0.1.1
 
 ### Patch Changes
