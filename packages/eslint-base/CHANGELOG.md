@@ -1,5 +1,11 @@
 # @sonny-fe/eslint-config-base
 
+## 0.1.1
+
+### Patch Changes
+
+- add LICENSE
+
 ## 0.1.0
 
 ### Minor Changes

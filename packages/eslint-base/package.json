@@ -1,6 +1,6 @@
 {
   "name": "@sonny-fe/eslint-config-base",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "base eslint config for sonny",
   "repository": {
@@ -22,9 +22,7 @@
     "./package.json": "./package.json"
   },
   "main": "./lib/index.cjs",
-  "source": "./src/index.cjs",
   "files": [
-    "src",
     "lib"
   ],
   "scripts": {
