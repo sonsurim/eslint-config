@@ -8,14 +8,15 @@
     "clean": "turbo run clean && rm -rf node_modules",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "turbo run build && changeset publish",
+    "release": "turbo run build && pnpm publish",
     "gen-workspace": "turbo gen workspace"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
+    "turbo": "latest",
     "eslint": "^8.48.0",
     "prettier": "^3.0.3",
-    "turbo": "latest"
+    "vite": "^4.5.0"
   },
   "packageManager": "pnpm@8.6.10"
 }

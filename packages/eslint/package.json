@@ -1,6 +1,6 @@
 {
   "name": "@sonny-fe/eslint-config",
-  "version": "0.1.2",
+  "version": "0.1.9",
   "type": "module",
   "description": "eslint config for sonny",
   "repository": {
@@ -31,11 +31,11 @@
     "build": "vite build"
   },
   "devDependencies": {
-    "vite": "^4.5.0"
+    "vite": "*"
   },
   "dependencies": {
-    "eslint": "^8.48.0",
-    "prettier": "^3.0.3"
+    "eslint": "*",
+    "prettier": "*"
   },
   "peerDependencies": {
     "@sonny-fe/eslint-config-base": "workspace:*",

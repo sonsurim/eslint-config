@@ -1,6 +1,6 @@
 {
   "name": "@sonny-fe/eslint-config-ts",
-  "version": "0.1.1",
+  "version": "0.1.8",
   "type": "module",
   "description": "typescript eslint config for sonny",
   "repository": {
@@ -34,15 +34,15 @@
     "access": "public"
   },
   "devDependencies": {
-    "vite": "^4.5.0"
+    "vite": "*"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.8.0",
     "@typescript-eslint/parser": "^6.8.0",
-    "eslint": "^8.48.0",
+    "eslint": "*",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-jsdoc": "^46.8.2",
-    "prettier": "^3.0.3"
+    "prettier": "*"
   },
   "peerDependencies": {
     "eslint": "^8.0.0",

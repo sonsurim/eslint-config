@@ -1,5 +1,47 @@
 # @sonny-fe/eslint-config-ts
 
+## 0.1.8
+
+### Patch Changes
+
+- replace changeset publish to pnpm publish
+
+## 0.1.7
+
+### Patch Changes
+
+- fore install package version
+
+## 0.1.6
+
+### Patch Changes
+
+- fix dependencies
+
+## 0.1.5
+
+### Patch Changes
+
+- set link root eslint and prettier
+
+## 0.1.4
+
+### Patch Changes
+
+- set eslint and prettier version to root
+
+## 0.1.3
+
+### Patch Changes
+
+- set eslint and prettier version to root
+
+## 0.1.2
+
+### Patch Changes
+
+- set eslint and prettier to root version
+
 ## 0.1.1
 
 ### Patch Changes
