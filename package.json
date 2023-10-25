@@ -9,7 +9,7 @@
     "clean": "turbo run clean && rm -rf node_modules",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "turbo run build && pnpm publish --filter packages/",
+    "release": "turbo run build && pnpm publish --recursive",
     "gen-workspace": "turbo gen workspace"
   },
   "devDependencies": {
