@@ -1,6 +1,7 @@
 {
   "private": true,
   "name": "@sonny-fe/config",
+  "version": "0.0.1",
   "license": "MIT",
   "author": "sonsurim <surim014@naver.com>",
   "scripts": {
