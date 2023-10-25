@@ -1,5 +1,11 @@
 # @sonny-fe/eslint-config-ts
 
+## 0.2.0
+
+### Minor Changes
+
+- set eslint and prettier version to clearly
+
 ## 0.1.8
 
 ### Patch Changes

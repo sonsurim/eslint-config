@@ -1,5 +1,18 @@
 # @sonny-fe/eslint-config
 
+## 1.0.0
+
+### Minor Changes
+
+- set eslint and prettier version to clearly
+
+### Patch Changes
+
+- Updated dependencies
+  - @sonny-fe/eslint-config-ts@0.2.0
+  - @sonny-fe/eslint-config-react@0.2.0
+  - @sonny-fe/eslint-config-base@0.2.0
+
 ## 0.1.9
 
 ### Patch Changes

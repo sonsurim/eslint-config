@@ -1,5 +1,11 @@
 # @sonny-fe/eslint-config-react
 
+## 0.2.0
+
+### Minor Changes
+
+- set eslint and prettier version to clearly
+
 ## 0.1.9
 
 ### Patch Changes

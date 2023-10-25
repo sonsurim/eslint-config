@@ -1,6 +1,6 @@
 {
   "name": "@sonny-fe/eslint-config-base",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "type": "module",
   "description": "base eslint config for sonny",
   "repository": {
@@ -32,16 +32,16 @@
     "access": "public"
   },
   "devDependencies": {
-    "vite": "*"
+    "vite": "^4.5.0"
   },
   "dependencies": {
-    "eslint": "*",
+    "eslint": "^8.48.0",
     "eslint-plugin-import": "^2.28.1",
     "eslint-plugin-jsdoc": "^46.8.2",
     "eslint-plugin-json-format": "^2.0.1",
     "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-vitest": "^0.3.2",
-    "prettier": "*"
+    "prettier": "^3.0.3"
   },
   "peerDependencies": {
     "eslint": "^8.0.0"
