@@ -1,5 +1,11 @@
 # @sonny-fe/eslint-config-ts
 
+## 0.2.1
+
+### Patch Changes
+
+- set eslint and prettier version to root version
+
 ## 0.2.0
 
 ### Minor Changes

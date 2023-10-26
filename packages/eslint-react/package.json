@@ -1,6 +1,6 @@
 {
   "name": "@sonny-fe/eslint-config-react",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "type": "module",
   "description": "react eslint config for sonny",
   "repository": {
@@ -22,9 +22,7 @@
     "./package.json": "./package.json"
   },
   "main": "./lib/index.cjs",
-  "source": "./src/index.cjs",
   "files": [
-    "src",
     "lib"
   ],
   "scripts": {
@@ -34,18 +32,18 @@
     "access": "public"
   },
   "devDependencies": {
-    "vite": "^4.5.0"
+    "vite": "*"
   },
   "dependencies": {
     "@babel/core": "^7.23.2",
     "@babel/eslint-parser": "^7.22.15",
     "@babel/preset-react": "^7.22.15",
-    "eslint": "^8.48.0",
+    "eslint": "*",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-testing-library": "^6.1.0",
-    "prettier": "^3.0.3"
+    "prettier": "*"
   },
   "peerDependencies": {
     "eslint": "^8.0.0",
