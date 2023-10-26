@@ -8,8 +8,8 @@
     "build": "turbo run build",
     "clean": "turbo run clean && rm -rf node_modules",
     "changeset": "changeset",
-    "version-packages": "changeset version",
-    "release": "turbo run build && changeset publish",
+    "changeset:version": "changeset version && changeset tag",
+    "changeset:publish": "turbo run build && changeset publish",
     "gen-workspace": "turbo gen workspace"
   },
   "devDependencies": {
