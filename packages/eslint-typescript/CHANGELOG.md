@@ -1,5 +1,11 @@
 # @sonny-fe/eslint-config-ts
 
+## 0.2.2
+
+### Patch Changes
+
+- change dependency of package
+
 ## 0.2.1
 
 ### Patch Changes

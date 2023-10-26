@@ -1,5 +1,11 @@
 # @sonny-fe/eslint-config-react
 
+## 0.2.2
+
+### Patch Changes
+
+- change dependency of package
+
 ## 0.2.1
 
 ### Patch Changes
