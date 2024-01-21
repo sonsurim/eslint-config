@@ -1,5 +1,11 @@
 # @sonny-fe/eslint-config-react
 
+## 0.0.1
+
+### Patch Changes
+
+- e83063e: implement eslint for next.js
+
 ## 0.2.2
 
 ### Patch Changes
