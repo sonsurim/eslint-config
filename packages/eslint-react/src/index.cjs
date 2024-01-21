@@ -1,6 +1,7 @@
 module.exports = {
   env: { browser: true, es2021: true },
   parser: '@babel/eslint-parser',
+  extends: ['@sonny-fe/ts'],
   plugins: ['react', 'react-hooks', 'jsx-a11y', 'testing-library'],
   'parserOptions': {
     requireConfigFile: false,
@@ -33,5 +34,7 @@ module.exports = {
         'html': true
       }
     ],
+    'react/prop-types': 'off',
+    'jsdoc/require-jsdoc': 'warn'
   },
 };

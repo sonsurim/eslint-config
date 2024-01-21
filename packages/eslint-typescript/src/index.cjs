@@ -3,6 +3,12 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   extends: ['plugin:@typescript-eslint/recommended', 'plugin:jsdoc/recommended-typescript', '@sonny-fe/base'],
   plugins: ['@typescript-eslint', 'import'],
+  overrides: [
+    {
+      files: ["**/*.ts?(x)"],
+      parser: '@typescript-eslint/parser',
+    },
+  ],
   rules: {
     '@typescript-eslint/array-type': ['error', { 'default': 'array' }],
     '@typescript-eslint/ban-tslint-comment': 'error',

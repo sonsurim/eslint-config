@@ -38,6 +38,7 @@
     "@babel/core": "^7.23.2",
     "@babel/eslint-parser": "^7.22.15",
     "@babel/preset-react": "^7.22.15",
+    "@sonny-fe/eslint-config-ts": "workspace:*",
     "eslint": "*",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.33.2",
