@@ -1,6 +1,6 @@
 {
   "name": "@sonny-fe/eslint-config-next",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "type": "module",
   "description": "Next.js eslint config for sonny",
   "repository": {
@@ -43,7 +43,8 @@
   "peerDependencies": {
     "eslint": "^8.0.0",
     "react": "^17.0.0 || ^18.0.0",
-    "next": "^13.0.0 || ^14.0.0"
+    "next": "^13.0.0 || ^14.0.0",
+    "typescript": "^4.5.0"
   },
   "peerDependenciesMeta": {
     "react": {

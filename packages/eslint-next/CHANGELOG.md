@@ -1,5 +1,21 @@
 # @sonny-fe/eslint-config-react
 
+## 0.0.4
+
+### Patch Changes
+
+- add typescript to peer dependency
+- Updated dependencies
+  - @sonny-fe/eslint-config-react@0.2.4
+
+## 0.0.3
+
+### Patch Changes
+
+- extends eslint configs
+- Updated dependencies
+  - @sonny-fe/eslint-config-react@0.2.3
+
 ## 0.0.2
 
 ### Patch Changes

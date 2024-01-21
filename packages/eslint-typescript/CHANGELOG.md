@@ -1,5 +1,13 @@
 # @sonny-fe/eslint-config-ts
 
+## 0.2.3
+
+### Patch Changes
+
+- extends eslint configs
+- Updated dependencies
+  - @sonny-fe/eslint-config-base@0.2.2
+
 ## 0.2.2
 
 ### Patch Changes
