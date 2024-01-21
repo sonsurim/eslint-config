@@ -1,7 +1,7 @@
 module.exports = {
   env: { browser: true, es2021: true, node: true },
   parser: '@typescript-eslint/parser',
-  extends: ['plugin:@typescript-eslint/recommended', 'plugin:jsdoc/recommended-typescript'],
+  extends: ['plugin:@typescript-eslint/recommended', 'plugin:jsdoc/recommended-typescript', '@sonny-fe/base'],
   plugins: ['@typescript-eslint', 'import'],
   rules: {
     '@typescript-eslint/array-type': ['error', { 'default': 'array' }],
