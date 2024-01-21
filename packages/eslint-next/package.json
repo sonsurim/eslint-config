@@ -1,0 +1,55 @@
+{
+  "name": "@sonny-fe/eslint-config-next",
+  "version": "0.2.2",
+  "type": "module",
+  "description": "Next.js eslint config for sonny",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sonsurim/eslint-config",
+    "directory": "packages/eslint"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Surim Son",
+    "email": "surim014@naver.com"
+  },
+  "exports": {
+    ".": {
+      "source": "./lib/index.cjs",
+      "require": "./lib/index.cjs",
+      "import": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./lib/index.cjs",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "vite": "*"
+  },
+  "dependencies": {
+    "eslint": "*",
+    "eslint-config-next": "^14.0.0",
+    "prettier": "*"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "react": "^17.0.0 || ^18.0.0",
+    "next": "^13.0.0 || ^14.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    },
+    "next": {
+      "optional": true
+    }
+  }
+}
