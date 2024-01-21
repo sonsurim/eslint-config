@@ -1,6 +1,6 @@
 {
   "name": "@sonny-fe/eslint-config-ts",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "type": "module",
   "description": "typescript eslint config for sonny",
   "repository": {

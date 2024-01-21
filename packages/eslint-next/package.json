@@ -1,6 +1,6 @@
 {
   "name": "@sonny-fe/eslint-config-next",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
   "description": "Next.js eslint config for sonny",
   "repository": {

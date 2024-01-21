@@ -29,7 +29,7 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/no-redeclare': 'error',
     '@typescript-eslint/no-unused-expressions': 'off',
-    '@typescript-eslint/no-duplicate-imports': 'error',
-    '@typescript-eslint/no-inferrable-types': 'error'
+    '@typescript-eslint/no-inferrable-types': 'error',
+    'import/no-duplicates': 'error',
   },
 };
