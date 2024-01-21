@@ -1,5 +1,11 @@
 # @sonny-fe/eslint-config-react
 
+## 0.0.2
+
+### Patch Changes
+
+- fix lib name
+
 ## 0.0.1
 
 ### Patch Changes
