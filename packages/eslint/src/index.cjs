@@ -8,7 +8,7 @@ module.exports = {
     },
     {
       files: ["**/*.{jsx,tsx}"],
-      extends: ["@sonny-fe/eslint-config-react"],
+      extends: ["@sonny-fe/eslint-config-react", "@sonny-fe/eslint-config-next"],
       rules: {
         'jsdoc/require-jsdoc': 'warn'
       }

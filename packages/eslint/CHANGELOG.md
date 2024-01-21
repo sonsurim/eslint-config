@@ -1,5 +1,11 @@
 # @sonny-fe/eslint-config
 
+## 1.1.0
+
+### Minor Changes
+
+- add next lint on eslint
+
 ## 1.0.2
 
 ### Patch Changes
