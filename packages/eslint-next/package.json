@@ -37,7 +37,8 @@
   "dependencies": {
     "eslint": "*",
     "eslint-config-next": "^14.0.0",
-    "prettier": "*"
+    "prettier": "*",
+    "@sonny-fe/eslint-config-react": "workspace:*"
   },
   "peerDependencies": {
     "eslint": "^8.0.0",
