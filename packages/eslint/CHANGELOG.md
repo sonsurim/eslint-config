@@ -1,5 +1,14 @@
 # @sonny-fe/eslint-config
 
+## 1.1.3
+
+### Patch Changes
+
+- Updated dependencies
+  - @sonny-fe/eslint-config-base@0.2.3
+  - @sonny-fe/eslint-config-ts@0.2.4
+  - @sonny-fe/eslint-config-react@0.2.5
+
 ## 1.1.2
 
 ### Patch Changes

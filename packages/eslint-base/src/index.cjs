@@ -2,6 +2,9 @@ module.exports = {
   env: { browser: true, es2021: true, node: true },
   extends: ['plugin:import/errors', 'eslint:recommended', 'plugin:jsdoc/recommended'],
   plugins: ['json-format', 'vitest', 'prettier'],
+  parserOptions: {
+    "sourceType": "module"
+  },
   rules: {
     'prettier/prettier': [
       'error',

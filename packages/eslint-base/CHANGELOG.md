@@ -1,5 +1,11 @@
 # @sonny-fe/eslint-config-base
 
+## 0.2.3
+
+### Patch Changes
+
+- fix in vanilla eslint error
+
 ## 0.2.2
 
 ### Patch Changes

@@ -1,0 +1,6 @@
+{
+  "extends": ["@sonny-fe/base"],
+  "parserOptions": {
+    "sourceType": "module"
+  }
+}
