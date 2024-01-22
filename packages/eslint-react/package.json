@@ -36,7 +36,6 @@
   },
   "dependencies": {
     "@babel/core": "^7.23.2",
-    "@babel/eslint-parser": "^7.22.15",
     "@babel/preset-react": "^7.22.15",
     "@sonny-fe/eslint-config-ts": "workspace:*",
     "eslint": "*",

@@ -1,9 +1,8 @@
 module.exports = {
   env: { browser: true, es2021: true },
-  parser: '@babel/eslint-parser',
   extends: ['@sonny-fe/ts'],
   plugins: ['react', 'react-hooks', 'jsx-a11y', 'testing-library'],
-  'parserOptions': {
+  parserOptions: {
     requireConfigFile: false,
     babelOptions: {
       presets: ['@babel/preset-react'],

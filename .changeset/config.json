@@ -7,5 +7,5 @@
   "access": "restricted",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": ["playgrounds-vanilla", "playgrounds-typescript"]
+  "ignore": ["playgrounds-vanilla", "playgrounds-typescript", "playgrounds-react", "playgrounds-next"]
 }
